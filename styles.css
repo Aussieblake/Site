@@ -8,6 +8,10 @@
 body, html {
     height: 100%;
     font-family: Arial, sans-serif;
+    background-image: url('https://i.imgur.com/wyGwzrW.jpeg'); /* Updated Imgur Image URL */
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents image repetition */
 }
 
 /* Main container */
@@ -16,7 +20,6 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #1E1E1E;
     color: white;
     position: relative;
 }
@@ -73,21 +76,4 @@ body, html {
 
 .footer a:hover {
     text-decoration: underline;
-}
-
-/* Background Image */
-.background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.background-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire screen */
-    opacity: 0.8; /* Optional, adjust opacity for contrast */
 }
