@@ -45,13 +45,14 @@ body, html {
 }
 
 .sign-up {
-    background-color: #ff6666; /* Roblox red */
-    color: white;
+    background-color: white; /* White background for Sign Up */
+    color: #333; /* Dark text for contrast */
 }
 
 .log-in {
-    background-color: #0080ff; /* Roblox blue */
-    color: white;
+    background-color: transparent; /* Transparent background for Log In */
+    border: 2px solid #0080ff; /* Blue border */
+    color: #0080ff; /* Blue text */
 }
 
 .btn:hover {
@@ -64,7 +65,7 @@ body, html {
 }
 
 .footer a {
-    color: white;
+    color: #0080ff; /* Blue hyperlinks */
     text-decoration: none;
     font-size: 14px;
     margin: 0 5px;
