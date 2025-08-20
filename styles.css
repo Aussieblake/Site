@@ -44,15 +44,15 @@ body, html {
     transition: 0.3s ease;
 }
 
-.sign-up {
-    background-color: white; /* White background for Sign Up */
-    color: #333; /* Dark text for contrast */
-}
-
 .log-in {
     background-color: transparent; /* Transparent background for Log In */
     border: 2px solid #0080ff; /* Blue border */
     color: #0080ff; /* Blue text */
+}
+
+.sign-up {
+    background-color: white; /* White background for Sign Up */
+    color: #333; /* Dark text for contrast */
 }
 
 .btn:hover {
